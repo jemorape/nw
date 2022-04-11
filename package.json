@@ -1,0 +1,31 @@
+{
+  "name": "nw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "e2e-test": "cucumber-js --require cucumber.conf.js --require step-definitions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemorape/nw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemorape/nw/issues"
+  },
+  "homepage": "https://github.com/jemorape/nw#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "chromedriver": "^99.0.0",
+    "geckodriver": "^3.0.1",
+    "nightwatch": "^1.5.1"
+  },
+  "dependencies": {
+    "nightwatch-api": "^3.0.2",
+    "selenium-server": "^3.141.59"
+  }
+}
